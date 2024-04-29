@@ -35,7 +35,7 @@ export const FileUpload = () => {
 
         setHighResPhoto(data);
       } catch (error) {
-        toast.error("Error occurred while handling photo. Please try again.", {
+        toast.error("File size is too large. Please try smaller image.", {
           position: "top-center",
         });
 

@@ -15,7 +15,7 @@ const App = () => {
         <Navbar />
         <main className="text-center w-screen h-screen flex flex-col space-y-8 justify-center items-center p-4">
           <h1 className="font-bold text-3xl">
-            Upload low resolution image (64x64 preferred, png's only)
+            Upload low resolution image (64x64-256x256 preferred, png's only)
           </h1>
           <FileUpload />
         </main>

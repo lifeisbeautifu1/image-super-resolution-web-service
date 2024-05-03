@@ -4,7 +4,7 @@ import { ClipLoader } from "react-spinners";
 import { toast } from "sonner";
 import axios from "axios";
 
-const fileTypes = ["PNG"];
+const fileTypes = ["PNG", "JPG", "JPEG"];
 
 export const FileUpload = () => {
   const [lowResPhoto, setLowResPhoto] = useState<File | null>(null);

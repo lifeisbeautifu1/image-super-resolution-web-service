@@ -33,8 +33,6 @@ export const FileUpload = () => {
           responseType: "blob",
         });
 
-        console.log(data);
-
         setHighResPhoto(data);
       } catch (error) {
         toast.error("File size is too large. Please try smaller image.", {

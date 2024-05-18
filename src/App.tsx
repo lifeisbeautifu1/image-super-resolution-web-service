@@ -5,7 +5,7 @@ import axios from "axios";
 import { Navbar, FileUpload } from "./components";
 
 axios.defaults.baseURL =
-  "https://lifeisbeautifu1-web-server-for-srgan-0a58.twc1.net";
+  "https://lifeisbeautifu1-web-server-for-srgan-2e6d.twc1.net";
 
 const App = () => {
   return (

@@ -4,7 +4,7 @@ import { ClipLoader } from "react-spinners";
 import { toast } from "sonner";
 import axios from "axios";
 
-const fileTypes = ["PNG", "JPG", "JPEG"];
+const fileTypes = ["PNG"];
 
 export const FileUpload = () => {
   const [lowResPhoto, setLowResPhoto] = useState<File | null>(null);
@@ -32,6 +32,8 @@ export const FileUpload = () => {
           data: formData,
           responseType: "blob",
         });
+
+        console.log(data);
 
         setHighResPhoto(data);
       } catch (error) {
